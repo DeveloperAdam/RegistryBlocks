@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Registry Blocks</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="loginText" formatted="false">Help us to make the world a better place.\nSimply register your item &amp; documents\n and benifit every day from our fraud\n preventing blockchain solutions.</string>
+
+    <string name="registerItemText">By registering your item and documents
+        you can start enjoying benifit from our innovative fraud preventing blockchain solutions.</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_Myitems">MyItems</string>
+    <string name="title_market">Marketplace</string>
+    <string name="title_documents">My Documents</string>
+    <string name="item_image_text" formatted="false">Please upload three pictures which will be used\n to validate your item.\n 1. Picture were the serial number is clearly visible\n 2. Picture of full frontside\n 3. Picture of the full backside.</string>
+</resources>

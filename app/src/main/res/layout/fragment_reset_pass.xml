@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimg"
+    tools:context="com.techease.registryblocks.Activities.Fragments.ResetPassFragment">
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/shinelogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="@string/app_name"
+        android:textColor="@color/colorDim"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2sp"
+            android:background="@color/colorDark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text="New-Password"
+                android:layout_marginLeft="10sp"
+                android:textSize="17sp"
+                android:textColor="#fff" />
+            <EditText
+                android:id="@+id/etNewPass"
+                android:layout_width="0sp"
+                android:layout_weight="0.6"
+                android:layout_height="40sp"
+                android:hint="Required"
+                android:inputType="textPassword"
+                android:textColor="#BDBDBD"
+                android:background="@null"
+                android:textColorHint="@color/colorDark"
+                android:paddingLeft="20sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/colorDark" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3sp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password"
+                android:layout_marginLeft="10sp"
+                android:textSize="17sp"
+                android:textColor="#fff" />
+            <EditText
+                android:id="@+id/etConfirm"
+                android:layout_width="0sp"
+                android:layout_weight="0.6"
+                android:layout_height="40sp"
+                android:hint="Required"
+                android:inputType="textPassword"
+                android:textColor="#BDBDBD"
+                android:background="@null"
+                android:textColorHint="@color/colorDark"
+                android:paddingLeft="20sp"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/colorDark"/>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25sp"
+            android:layout_marginRight="25sp"
+            android:background="@drawable/round_btn"
+            android:layout_marginTop="20sp"
+            android:text="Reset"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:layout_marginBottom="65sp"/>
+    </LinearLayout>
+</RelativeLayout>
